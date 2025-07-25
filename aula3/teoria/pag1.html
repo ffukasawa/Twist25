@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teoria</title>
+</head>
+<body>
+    <header><h1>Formulário</h1></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pag1.html">Página 1</a>
+        <a href="pag2.html">Página 2</a>
+    </nav>
+    <section>
+        <form action="" method="get" name="cadCarro">
+            <label for="classe">classe social:</label><br/>
+            <label for="a">A:</label>
+            <input type="radio" name="social" id="a" value="a"/> <!--no radio, o nome deve ser igual para todos-->
+            <label for="b">B:</label>
+            <input type="radio" name="social" id="b" value="b"/>
+            <label for="c">C:</label> 
+            <input type="radio" name="social" id="c" value="c" checked/>
+            <label for="d">D:</label>
+            <input type="radio" name="social" id="d" value="d"/>
+            <label for="e">E:</label>
+            <input type="radio" name="social" id="e" value="e"/>
+            <br/><hr/>
+
+            <label for="carros">carros:</label>
+            <label for="ferrari">Ferrari</label>
+            <input type="checkbox" name="carros" id="ferrari" value="Ferrari"/>
+            &nbsp;<!--espaço em branco-->
+            <label for="camaro">Camaro:</label>
+            <input type="checkbox" name="carros" id="camaro" value="Camaro">
+            &nbsp;
+            <label for="outros">Outros:</label>
+            <input type="checkbox" name="carros" id="outros" value="outros">
+            <br/>
+            <input type="hidden" name="preco" id="preco" value="150000000"/>
+            <br/>
+            <label for="arquivo">Arquivo:</label>
+            <input  type="file" id="arquivo" name="arquivo"/>
+
+            <br/>
+            <input type="submit"/>
+            <input type="button" value="Clique Aqui" name="teste" id="teste" onclick="alert('Bom dia!!! \n Tudo bem??')"/>
+            <br/>
+            <input type="image" src="img/NaoAperteoBotao.png" width="50px" height="50px"/>
+        </form>
+    </section><hr/>
+    <footer>Site para fins educacionais (Fernanda Fukasawa)</footer>
+    
+</body>
+</html>

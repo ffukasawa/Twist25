@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--favicon - ícone de favoritos-->
+    <link rel="icon" href="img/5904059.png" type="image/png"/>
+</head>
+<body>
+    <header>Aula 1 de HTML</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pag1.html">Página 1</a>
+    </nav>
+
+    <article>
+        <section>
+            <h1>Título 1</h1>
+            <p>parágrafo <del>cheio</del> de palavras</p>
+
+            <!-- texto abaixo sem parágrafo é incorreto. SEMPRE colocar o texto em tags html-->
+            opa <br/> oie <hr/>
+            <strong>este elemento é de linha</strong>, o conteúdo depois continua na mesma linha <ins>sem problema</ins> algum
+
+            <h2>Listas em HTML</h2>
+
+            <ul> <!--"ul" para nao ter ordem-->
+                <li>primeiro tópico</li>
+                <li>segundo tópico</li>
+                <li>terceiro tópico</li>
+            </ul>
+    
+            <h4>Agora ordenado</h4>
+            <ol> <!--"ol" para ter ordem-->
+                <li>primeiro tópico</li>
+                <li>segundo tópico</li>
+                <li>terceiro tópico</li>
+            </ol>
+
+            <h2> Tabelas em HTML</h2>
+
+            <table border="1"> <!--tabela (border=1 -> 1 é a espessura. quanto maior o número, maior a espessura)-->
+                <tbody>
+                    <tr> <!--linha-->
+                    <td>Valor 1</td><!--coluna-->
+                    <td>Valor 2</td>
+                    <td>Valor 3</td>
+                    </tr>
+                    <tr>
+                        <td>Valor 4</td>
+                        <td>Valor 5</td>
+                        <td>Valor 6</td>
+                    </tr>
+                </tbody>
+                
+                <thead>
+                    <tr>
+                    <th>campo 1</th> <!--"th" para ficar em negrito-->
+                    <th>campo 2</th>
+                    <th>campo 3</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td>foot</td>
+                    </tr>
+                </tfoot>
+                
+            </table> <br/>
+
+            <h2>Imagens em HTML</h2>
+            <!--As propriedades de largura e altura devem ser configuradas em CSS-->
+            <img src="img/download.jpg"
+                alt="gatinho"
+                title="foto de 1 gatinho"
+                height="70px"
+                width="100px">
+
+            <h4>Imagem + legenda em HTML</h4>
+            <figure>
+                <img src="img/images.jpg"
+                alt="pinguimo"
+                title="foto de 1 pinguim"
+                height="100px"
+                width="100px">
+                <figcaption>Disponível em <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnoticias.buscavoluntaria.com.br%2F50-imagens-de-pinguins-para-alegrar-seu-dia%2F&psig=AOvVaw1x_dCfX5kIa8_lAM_0nVj1&ust=1753282918559000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNiFqIje0I4DFQAAAAAdAAAAABA7" target="_blank"> busca voluntária</a></figcaption>
+            </figure>
+            
+
+            
+        </section>
+    </article>
+    <hr/>
+    <footer> Site para fins educacionais </footer>
+
+</body>
+
+</html>

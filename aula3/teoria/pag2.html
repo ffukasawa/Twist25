@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Formulário</h1></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pag1.html">Página 1</a>
+        <a href="pag2.html">Página 2</a>
+    </nav>
+    <section>
+        <form action="" method="get" name="feira">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <Label for="nome">Nome:</Label>
+                <input type="text" name="txtNome"id="txtNome" size="100" required autofocus placeholder="Digite seu nome"/>
+                <br/><br/>
+
+                <label for="dtNasc">Data Nascimento:</label>
+                <input type="date" name="dtNasc" id="dtNasc"/>
+                <br/><br/>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" name="txtCpf" id="txtCpf" size="15" required/> <!--disabled(desbilita e fica cinza)// readonly(desabilita)-->
+                <br/><br/>
+
+                <label for="telContato">Contato:</label>
+                <input type="tel" name="tlContato" id="tlContato" required/>
+                <br/><br/>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required placeholder="Digite seu email"/>
+                <br/><br/>
+
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <Label for="cep">CEP:</Label>
+                <input type="text" name="txtCep"id="txtCep" size="9" maxlength="9" required/>
+                <br/><br/>
+
+                <Label for="logradouro">Logradouro:</Label >
+                <input type="text" name="txtLog"id="txtLog" size="100" required placeholder="Rua/Via/Avenida..."/>
+                <br/><br/>
+
+                <Label for="numero">Número:</Label>
+                <input type="text" name="txtNum"id="txtNum" size="6" maxlength="6" required/>
+                <br/><br/>
+
+                <Label for="complemento">Complemento:</Label>
+                <input type="text" name="txtComp"id="txtComp" size="10" maxlength="10"/>
+                <br/><br/>
+
+                <Label for="cidade">Cidade:</Label>
+                <input type="text" name="txtCidade"id="txtCidade" size="60" maxlength="60" required/> <!--Não por, por exemplo, txtCity, visto que está tudo em pt-Br. Se estivesse tudo em inglês ai tudo bem.-->
+                <br/><br/>
+
+                <Label for="estado">Estado:</Label>
+                <select name="" id="">
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                </select>
+                <br/><br/>
+            </fieldset>
+            <fieldset>
+                <legend size="50">Feira</legend>
+
+                <Label for="frutas">Frutas:</Label>
+                <input list="comida" id="lsComida" name="lsComida"/>
+                <datalist id="comida"> 
+                    <option value="Pera"></option>
+                    <option value="Maça"></option>
+                    <option value="Morango"></option>
+                    <option value="Laranja"></option>
+                    <option value="Banana"></option>
+                    <option value="Uva"></option>
+                </datalist>
+                <br/><br/>
+
+                <label for="tempero">Temperos:</label>
+                <select name="cbxTemp" id="cbxTemp">
+                    <optgroup label="especiarias">
+                        <option value="Canela">Canela</option>
+                        <option value="Cravo">Cravo</option>
+                        <option value="Anis">Anis</option>
+                    </optgroup>
+                    <optgroup label="raiz">
+                        <option value="Açafrão">Açafrão</option>
+                        <option value="Cúrcuma">Cúrcuma</option>
+                    </optgroup>
+                    <optgroup label="folha">
+                        <option value="Salsa">Salsa</option>
+                        <option value="Coentro">Coentro</option>
+                        <option value="Oregano">Oregano</option>
+                    </optgroup>
+                </select>
+                
+            </fieldset>
+            <br/>
+            <input type="submit" value="Salvar"/>
+            <button type="button" onclick="alert('BOOM!!')">
+                <img src="img/NaoAperteoBotao.png" width="50px" height="50px">
+                <strong>Não aperte</strong>
+            </button>
+
+        </form>
+
+    </section><hr/>
+    <footer>Site para fins educacionais (Fernanda Fukasawa)</footer>
+    
+</body>
+</html>
