@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="cabeçalho"></header>
+    <nav id="navegaçao">    </nav>
+    <section id="main">
+        <h1>Conteúdos</h1>
+        <p> As tags embed, iframe e object são todas utilizadas para inserir conteúdos externos dentro do próprio site, como vídeos, fotos, outros sites, etc. Entretanto, elas possuem algumas diferenças.</p>
+
+        <h2>Embed</h2>
+        <p>A tag embed é utilizada para inserir conteúdos de vídeos, fotos ou aplicativos externos. 
+            É uma tag simples com pouca possibilidade de personalização e pouco flexível para manipulação via JavaScript e CSS.
+            <br/> Uma das desvantagens é que a tag embed depende do navegador para renderizar, podendo causar problemas de compatibilidade
+        </p>
+        <h3> Exemplo:</h3>
+        <embed type="image/jpg" src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="300" height="200">
+        
+        <h2>Iframe</h2>
+        <p>A tag Iframe é utilizada, assim como o embed, para inserir contúdos externos no seu site. Mais utilizado para incorporar vídeos, mapas, páginas externas.</p>
+        <h3>Exemplo:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cu71GJlMHzY?si=nCwM3K-d_kApnxS2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14693.099058425085!2d-43.220992!3d-22.9769216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1753360259583!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <h2>Object</h2>
+        <p>A tag Object também é utilizada para colocar conteúdos externos no próprio site. Mais semântico e portanto um pouco mais complexo.</p>
+        <h3>Exemplo:</h3>
+        <object data="https://adoteumgatinho.org.br/" ></object>
+
+
+
+    </section>
+</body>
+</html>
