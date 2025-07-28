@@ -1,0 +1,89 @@
+/* SELETOR id*/
+#paragrafo{
+    color: brown;
+    font-family: 'Times New Roman';
+
+}
+
+/* seletor de elemento*/
+img{
+    height: 150px;
+    width: 250px;
+}
+
+/*seletor de grupo*/
+h1,h2,h3,h4{
+    color: deeppink;
+    text-decoration: overline;
+    text-align: center;
+}
+
+/* Seletor para toda a pagina*/
+*{
+    background-color: rgb(211, 219, 255);
+}
+
+/* Seletor (dentro do paragrafo, se tiver strong/em/mark ele aplica esses settings)*/
+p strong{
+    color: coral;
+    font-size: 20pt;
+    font-family: Arial;
+}
+
+p em{
+    color: blue;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+p mark{
+    background-color: rgb(235, 114, 235);
+}
+
+/*Seletor por classe*/
+p.teste{
+    background-color: aliceblue;
+    font-size: 16pt;
+}
+
+.generica{
+    background-color: aquamarine;
+    font-size: 30pt;
+}
+
+#t4{
+    font-size: 24pt
+}
+
+header{
+    background-color: aliceblue;
+    padding: 50px;
+    border: solid black;
+    margin: 0;
+}
+
+nav a{
+    color: white;
+    font-size: 16pt;
+    padding: 20px;
+    border: darkorchid dotted 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: cadetblue;
+    padding: 100px;
+    border: dashed 1px black;
+    margin: 50px;
+}
+
+#main{
+    background-color: cornsilk;
+    padding: 100px;
+    border: double black 3px;
+    margin: 10px;
+}
+
+footer{
+    padding: 10px 100px blue ;
+}
