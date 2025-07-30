@@ -1,0 +1,47 @@
+#container{
+    background-image: url(/img/gato_rosa_wallp.jpg);
+    background-repeat: repeat;
+    margin: 0 auto;
+    padding: 2em;
+    align-items: center;
+}
+
+#cabecalho{
+    margin: 0 auto;
+    background-color: lightsalmon;
+    color: rgb(80, 79, 79);
+    padding: 1em;
+}
+
+#menu{
+    background-color: rgb(252, 202, 209);
+    color: dimgray;
+    font-size: 16pt;
+    padding: 1em;
+}
+
+#main{
+    background-color: aliceblue;
+    border: lightsteelblue 1em solid;
+    border-radius: 10px;
+    padding: 10em;
+}
+
+#rodape{
+    margin: 0 auto;
+    padding: 2em;
+    font-size: 12pt;
+    color: black;
+    background-color: lightsalmon;
+}
+
+header img{
+    width: 7%;
+    height: 7%;
+    display: inline-block;
+}
+
+header h1{
+    display: inline;
+    font-size: 60pt;
+}
