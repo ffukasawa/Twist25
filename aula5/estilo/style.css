@@ -1,0 +1,143 @@
+header img{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 60pt;
+    color:firebrick;
+}
+
+.imagem{
+    width: 150px;
+    padding: 25px;
+}
+
+.fonte{
+    font-size: 16pt;
+    font-family: sans-serif;
+    font-style: italic;
+    color: dimgray;
+}
+
+.caixa{
+    width: 200px;
+    height: 250px;
+    border: double lightskyblue 2px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#cabecalho{
+    padding: 5px;
+    margin: auto 0;
+}
+
+#menu{
+    padding: 1.5%;
+    width: 25%;
+    border: black 1px solid;
+    margin: 2%;
+    border-radius: 10px
+}
+
+#main{
+    background-color: lavenderblush;
+    margin: auto 0;
+    padding: 20px;
+
+}
+
+#rodape{
+    background-color: lightsalmon;
+    padding: 50px;
+    margin: 1%;
+    
+}
+
+#ex2{
+    align-items: center;
+}
+
+aside a{
+    display: block;
+    text-decoration: none;
+    padding: 2%;
+}
+
+/* todo elemento que tem a propriedade src*/
+[src]{
+    border: 1px lightgrey solid;
+}
+
+/*todo elemento com a propriedade src que termina com png*/
+[src$='png']{
+    border-radius: 10px;
+}
+
+
+[href*='.org']{
+    color:blue;
+    margin: 3px;
+}
+
+[href~='https://www.paraisodosfocinhos.com.br/']{
+    color: lightgray;
+    font-size: 12pt;
+}
+
+div.btn{
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(245, 210, 177);
+    width: 100px;
+}
+
+a, a:link{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#main div:hover{
+    text-decoration: underline;
+    color: coral;
+    background-color: aliceblue;
+}
+
+#main div:active{
+    background-color: rgb(253, 199, 229);
+    border: ghostwhite 1px solid;
+}
+
+div.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid rgb(255, 124, 124);
+    box-sizing: border-box;
+    display: inline-block;
+    color: lightcoral;
+    line-height: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+section.tamanho{
+    width: 250px;
+    text-align: center;
+}
+
+
+#main div:active {
+    background-color: brown;
+}
+
+#main div:focus{
+    background-color: rgb(109, 0, 0);
+}
